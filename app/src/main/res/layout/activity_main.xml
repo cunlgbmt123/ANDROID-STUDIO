@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="Thực Đơn"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="152dp" />
+
+    <Button
+        android:id="@+id/goimon"
+        android:layout_width="318dp"
+        android:layout_height="80dp"
+        android:text="Gọi Món"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <CheckBox
+        android:id="@+id/pho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:text="Phở"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="168dp" />
+
+    <CheckBox
+        android:id="@+id/bundau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:text="Bún Đậu"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="152dp" />
+
+    <CheckBox
+        android:id="@+id/hutieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="449dp"
+        android:text="Hủ Tiếu"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="152dp" />
+
+    <CheckBox
+        android:id="@+id/banhmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+        android:text="Bánh Mì"
+        android:textSize="36sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="156dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
